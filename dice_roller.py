@@ -1,4 +1,5 @@
 '''
+#without optimization
 import random
 def main(min,max):
 	while True:
@@ -25,6 +26,7 @@ def roll(min,max):
 if __name__== "__main__":
   roll(1,6)
 '''
+#with optimization
 import random
 
 def roll(min, max):
